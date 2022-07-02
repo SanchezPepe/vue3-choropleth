@@ -14,7 +14,6 @@
 <script>
 import { LGeoJson, LControl } from "@vue-leaflet/vue-leaflet";
 import { getMin, getMax, getColor, validNumber } from "./util";
-import Info from "./Info.vue";
 import * as L from "leaflet";
 
 function mouseover({ target }) {
